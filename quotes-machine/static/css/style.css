@@ -1,0 +1,31 @@
+.quote, .author {
+  font-family: 'Delius Unicase', cursive;
+}
+
+.container {
+  position: relative;
+  margin-top: 100px;
+  border-radius: 10px;
+  background-color: yellow;
+  height: 550px;
+  width: 400px;
+  overflow: scroll;
+  min-width: 700px;
+}
+
+.quote {
+  margin: 100px;
+}
+
+
+.author {
+  text-align: center;
+  margin: 100px;
+}
+
+.buttons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+}

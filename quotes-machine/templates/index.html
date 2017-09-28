@@ -15,17 +15,21 @@
   </head>
   <body>
 
-    <section class="container">
+    <section class="container quote-card">
       <section class="container-fluid">
-        <h1>Quotes go here.</h1>
+        <h1 class="quote" data-bind="html: formatQuote()"></h1>
+        <h4 class="author" data-bind="text: formatAuthor()"></h4>
       </section>
 
-      <button data-bind="click: postToTwitter"><i class="fa fa-twitter"></i></button>
-      <button data-bind="click: randomQuote" >Random Quote</button>
+      <section class="buttons">
+        <button><i class="fa fa-twitter"></i></button>
+        <button data-bind="click: randomQuote">Random Quote</button>
+      </section>
     </section>
 
     <!-- script tags -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js" type = "text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js" type = "text/javascript"></script>
+    <script src="../static/js/script.js" type="text/javascript"></script>
   </body>
 </html>
