@@ -14,6 +14,19 @@ function QuoteAppViewModel(){
   self.quote = ko.observable("");
   self.author = ko.observable("");
 
+  self.tweet = function(){
+    var url = 'https://twitter.com/home?status=';
+    var post = '\"'+ self.quote() + '\" ' + self.formatAuthor();
+
+    var totalLength = post.length;
+
+    if (totalLength > 140){
+      alert("Tweets must be 140 characters or less");
+    } else {
+      window.open(url + post, '_blank');
+    }
+  }
+
   self.formatAuthor = ko.computed(function(){
     if (self.author()){
       return "- " + self.author();

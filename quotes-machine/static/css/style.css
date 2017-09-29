@@ -11,16 +11,17 @@
   width: 400px;
   overflow: scroll;
   min-width: 700px;
+  border-style: solid;
 }
 
 .quote {
-  margin: 100px;
+  margin: 20px;
 }
 
 
 .author {
   text-align: center;
-  margin: 100px;
+  margin: 50px;
 }
 
 .buttons {
