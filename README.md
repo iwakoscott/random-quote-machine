@@ -9,8 +9,5 @@ Click "Fork" at the top of this webpage and click "Download ZIP" or copy the lin
 ## Requirements?
 Safari, Firefox, or Google Chrome Web browser recommended.
 
-## Which API are used?
-I used the Google Maps API, and the New York Times API.
-
 ## How to run?
-Navigate to where you cloned my repository and 'cd' into "random-quote-machine" and click on the index.html to open my single page web application where you can see my favorite coffee shops in SF.
+Navigate to where you cloned my repository and 'cd' into "random-quote-machine/templates/" and click on the index.html to open my single page web application where you can see my favorite coffee shops in SF.
